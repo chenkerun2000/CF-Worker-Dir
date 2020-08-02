@@ -54,11 +54,21 @@ main .segment {
   flex-grow: 1;
   margin: 0 !important;
 }
-main .card .content {
-  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+
+main .card {
+  padding: .5rem;
 }
 
-.segment h4{
+main .card .content{
+  color:rgb(100, 100, 100) !important;
+  background-image:linear-gradient(to bottom, #537895b6 0%, white 100%) !important;
+}
+
+main .card div.meta{
+  color:rgb(100, 100, 100) !important;
+}
+
+main .segment .ui.horizontal.divider.header{
   color: white;
   padding-bottom: .5rem !important;
 }
@@ -71,10 +81,6 @@ footer {
   padding: 1rem 0;
   text-align: center;
   background-color: #ddd;
-}
-
-.card {
-  padding: .5rem;
 }
 
 #seller .list {
