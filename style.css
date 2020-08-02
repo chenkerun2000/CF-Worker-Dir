@@ -14,7 +14,7 @@ header {
 }
 
 #head {
-  background-image: linear-gradient(to top, #537895 0%, #00000 100%);
+  background-image: linear-gradient(to top, #537895 0%, #09203f 100%);
 }
 
 #nav .item {
@@ -38,6 +38,7 @@ main {
   flex-basis: auto;
   flex-grow: 1;
   padding: 2rem 0;
+  background-image: linear-gradient(to bottom, #434343 0%, black 100%);
 }
 
 main .container{
