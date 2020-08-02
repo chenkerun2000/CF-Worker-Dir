@@ -54,11 +54,12 @@ main .segment {
   flex-grow: 1;
   margin: 0 !important;
 }
-main .card {
+main .card .content {
   background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
 }
 
 .segment h4{
+  color: white;
   padding-bottom: .5rem !important;
 }
 
